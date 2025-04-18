@@ -5,10 +5,10 @@
 
 
 AsyncWebServer server(80);
-const char *ssid = "SEL_EXT/2.4GHz";
-const char *password = "s4051490";
-String usernames[] = {"melis","enis"};
-String passwords[] = {"melis123","enis123"};
+const char *ssid = ".....";
+const char *password = ".....";
+String usernames[] = {".....","....."};
+String passwords[] = {".....","....."};
 std::map<String, String> sessions;
 bool isLoginValid(String username, String password);
 
